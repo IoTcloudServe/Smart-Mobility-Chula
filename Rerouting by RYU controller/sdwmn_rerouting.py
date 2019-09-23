@@ -521,7 +521,7 @@ class node_failure (app_manager.RyuApp):
 
                 self.add_gototable(datapath, 0, 3, 160, match, 10)#Table 3 is to relay Raspi 5
 
-                match = parser.OFPMatch(in_port=1,eth_type=0x0806,eth_#Table 3 is to relay Raspi 5src=r5,arp_tpa=gw2ip)
+                match = parser.OFPMatch(in_port=1,eth_type=0x0806,eth_src=r5,arp_tpa=gw2ip)#Table 3 is to relay Raspi 5
                 self.add_gototable(datapath, 0, 3, 160, match, 10)
 
                 match = parser.OFPMatch(in_port=1,eth_type=0x0800,eth_src=r5,ipv4_dst=gw2ip)
