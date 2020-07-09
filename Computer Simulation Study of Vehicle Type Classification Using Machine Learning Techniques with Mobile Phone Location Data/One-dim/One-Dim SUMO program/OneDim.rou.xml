@@ -1,0 +1,72 @@
+<routes>
+
+	<!-- <vType probability="0.55636" accel="2.0" decel="2.5" id="Car" latAlignment="arbitrary" lcLaneDiscipline="1" lcSublane="100" lcPushy="0" lcAssetive="0" lcStrategic="0" lcCooperative="1" minGapLat="10" width="1.78" length="4.62" minGap="2.37" maxSpeed="12.5" sigma="0.7"/>
+-->
+
+	<vType probability="0.55636" accel="2.0" decel="2.5" id="Car" latAlignment="center" lcLaneDiscipline="1" lcSublane="100" lcPushy="0" lcAssetive="1" lcStrategic="0" lcCooperative="1" minGapLat="0.05" width="1.78" length="4.62" minGap="2.37" maxSpeed="12.5" sigma="0.7"/>
+	<vType probability="0.44364" accel="4.0" decel="4.0" id="MC" latAlignment="compact" lcSublane="10000" lcPushy="10" lcAssertive="10" lcStrategic="1" lcCooperative="1" minGapLat="0.05" maxSpeedLat="1" vClass="motorcycle" width="0.5" length="1.9" minGap="0.4" maxSpeed="12.5" sigma="0.7"/>
+	<vType maxSpeed = "10.368338" accel="100000000000000000000000000000000000" decel="0.000000000000000000000000000000000000000000000001" id="test"/>
+	<vTypeDistribution id="typedist1" vTypes="Car MC"/>
+
+
+
+
+	<!-- <vType probability="0.55636" accel="2.0" decel="2.5" id="Car" latAlignment="center" lcLaneDiscipline="1" lcSublane="100" lcPushy="0" lcAssetive="1" lcStrategic="0" lcCooperative="1" minGapLat="0.5" width="1.78" length="4.62" minGap="2.37" maxSpeed="12.5" sigma="0.7"/> -->
+	<!-- <vType probability="0.44364" accel="4.0" decel="4.0" id="MC" latAlignment="compact" lcSublane="10000" lcPushy="1" lcAssertive="10" lcStrategic="1" lcCooperative="1" minGapLat="0.02" maxSpeedLat="1" vClass="motorcycle" width="0.19" length="1.9" minGap="0.4" maxSpeed="12.5" sigma="0.7"/> -->
+	<!-- <vType maxSpeed = "10.368338" accel="100000000000000000000000000000000000" decel="0.000000000000000000000000000000000000000000000001" id="test"/> -->
+	<!-- <vTypeDistribution id="typedist1" vTypes="Car MC"/> -->
+
+
+	<!-- <vType probability="0.55636" accel="2.0" decel="2.5" id="Car" latAlignment="center" lcLaneDiscipline="1" lcSublane="100" lcPushy="0" lcAssetive="1" lcStrategic="0" lcCooperative="1" minGapLat="0.00000001" width="1.78" length="4.62" minGap="2.37" maxSpeed="12.5" sigma="0.7"/> -->
+	<!-- <vType probability="0.44364" accel="4.0" decel="4.0" id="MC" latAlignment="compact" lcSublane="10000" lcPushy="10" lcAssertive="10" lcStrategic="1" lcCooperative="1" minGapLat="0.0000000001" maxSpeedLat="1" vClass="motorcycle" width="0.19" length="1.9" minGap="0.4" maxSpeed="12" sigma="0.7"/> -->
+	<!-- <vType maxSpeed = "10.368338" accel="100000000000000000000000000000000000" decel="0.000000000000000000000000000000000000000000000001" id="test"/> -->
+	<!-- <vTypeDistribution id="typedist1" vTypes="Car MC"/> -->
+
+
+
+	<vType accel="2.0" decel="2.5" id="Train" vClass="rail_urban" length="86.6" minGap="100" maxSpeed="22.2" sigma="0.7" color="0,0,1"/>
+	<route id="route1_0" edges="-gneE13 -gneE12 gneE0 gneE1 gneE2 gneE3 gneE4 gneE5 gneE6 gneE7 gneE10 gneE11"/>
+	<route id="route1_1" edges="-gneE11 -gneE10 -gneE7 -gneE6 -gneE5 -gneE4 -gneE3 -gneE2 -gneE1 -gneE0 gneE12 gneE13"/>
+	<route id="route_BTS1_0" edges="BTS_AB"/>
+	<route id="route_BTS1_1" edges="BTS_BA"/>
+
+
+	<flow begin="21600" end="30600" departPos="free" id="flow1_0" vehsPerHour="4200" route="route1_0" type="typedist1"/>
+	<!-- <flow begin="21600" end="25200" departPos="free" id="flow1_1" vehsPerHour="2400" route="route1_1" type="typedist1"/> -->
+	
+
+	<flow begin="21600" end="30600" departPos="free" id="flow_BTSl_0" vehsPerHour="10" route="route_BTS1_0" type="Train">
+		<!-- <stop busStop="Stop1_0" duration="20"/> -->
+		<!-- <stop busStop="Stop2_0" duration="20"/> -->
+		<stop busStop="Stop3_0" duration="20"/>
+		<!-- <stop busStop="Stop4_0" duration="20"/> -->
+		<stop busStop="Stop5_0" duration="20"/>
+		<!-- <stop busStop="Stop6_0" duration="20"/> -->
+		<stop busStop="Stop7_0" duration="20"/>
+		<!-- <stop busStop="Stop8_0" duration="20"/> -->
+		<stop busStop="Stop9_0" duration="20"/>
+		<!-- <stop busStop="Stop10_0" duration="20"/> -->
+		<stop busStop="Stop11_0" duration="20"/>
+
+	</flow>
+	
+	<!-- <flow begin="21600" end="28800" departPos="free" id="flow_BTSl_1" vehsPerHour="" route="route_BTS1_1" type="Train"> -->
+		<!-- <stop busStop="Stop11_1" duration="20"/> -->
+		<!-- <stop busStop="Stop10_1" duration="20"/> -->
+		<!-- <stop busStop="Stop9_1" duration="20"/> -->
+		<!-- <stop busStop="Stop8_1" duration="20"/> -->
+		<!-- <stop busStop="Stop7_1" duration="20"/> -->
+		<!-- <stop busStop="Stop6_1" duration="20"/> -->
+		<!-- <stop busStop="Stop5_1" duration="20"/> -->
+		<!-- <stop busStop="Stop4_1" duration="20"/> -->
+		<!-- <stop busStop="Stop3_1" duration="20"/> -->
+		<!-- <stop busStop="Stop2_1" duration="20"/> -->
+		<!-- <stop busStop="Stop1_1" duration="20"/> -->
+	<!-- </flow> -->
+	
+
+	<!-- <flow begin="25200" end="28800" departPos="free" id="flow2_0" vehsPerHour="1500" route="route1_0" type="typedist1"/> -->
+	<!-- <flow begin="25200" end="28800" departPos="free" id="flow2_1" vehsPerHour="2400" route="route1_1" type="typedist1"/> -->
+	
+	
+</routes>

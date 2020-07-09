@@ -1,0 +1,58 @@
+<additional>
+
+	<!-- <busStop id="Stop1_0" lane="BTS_AB_0" startPos="0" endPos="86.6"/> -->
+	<!-- <busStop id="Stop1_1" lane="BTS_BA_0" startPos="3000" endPos="3086.6"/> -->
+	
+	<!-- every 250 meters -->
+	<!-- <busStop id="Stop2_0" lane="BTS_AB_0" startPos="250" endPos="336.6"/> -->
+	<!-- <busStop id="Stop2_1" lane="BTS_BA_0" startPos="2750" endPos="2836.6"/> -->
+	<!-- <busStop id="Stop3_0" lane="BTS_AB_0" startPos="500" endPos="586.6"/> -->
+	<!-- <busStop id="Stop3_1" lane="BTS_BA_0" startPos="2500" endPos="2586.6"/> -->
+	<!-- <busStop id="Stop4_0" lane="BTS_AB_0" startPos="750" endPos="836.6"/> -->
+	<!-- <busStop id="Stop4_1" lane="BTS_BA_0" startPos="2250" endPos="2336.6"/> -->
+	<!-- <busStop id="Stop5_0" lane="BTS_AB_0" startPos="1000" endPos="1086.6"/> -->
+	<!-- <busStop id="Stop5_1" lane="BTS_BA_0" startPos="2000" endPos="2086.6"/> -->
+	<!-- <busStop id="Stop6_0" lane="BTS_AB_0" startPos="1250" endPos="1336.6"/> -->
+	<!-- <busStop id="Stop6_1" lane="BTS_BA_0" startPos="1750" endPos="1836.6"/> -->
+	<!-- <busStop id="Stop7_0" lane="BTS_AB_0" startPos="1500" endPos="1586.6"/> -->
+	<!-- <busStop id="Stop7_1" lane="BTS_BA_0" startPos="1500" endPos="1586.6"/> -->
+	<!-- <busStop id="Stop8_0" lane="BTS_AB_0" startPos="1750" endPos="1836.6"/> -->
+	<!-- <busStop id="Stop8_1" lane="BTS_BA_0" startPos="1250" endPos="1336.6"/> -->
+	<!-- <busStop id="Stop9_0" lane="BTS_AB_0" startPos="2000" endPos="2086.6"/> -->
+	<!-- <busStop id="Stop9_1" lane="BTS_BA_0" startPos="1000" endPos="1086.6"/> -->
+	<!-- <busStop id="Stop10_0" lane="BTS_AB_0" startPos="2250" endPos="2336.6"/> -->
+	<!-- <busStop id="Stop10_1" lane="BTS_BA_0" startPos="750" endPos="836.6"/> -->
+	<!-- <busStop id="Stop11_0" lane="BTS_AB_0" startPos="2500" endPos="2586.6"/> -->
+	<!-- <busStop id="Stop11_1" lane="BTS_BA_0" startPos="500" endPos="586.6"/> -->
+	<!-- <busStop id="Stop12_0" lane="BTS_AB_0" startPos="2750" endPos="2836.6"/> -->
+	<!-- <busStop id="Stop12_1" lane="BTS_BA_0" startPos="250" endPos="336.6"/> -->
+	
+	<!-- <busStop id="Stop11_0" lane="BTS_AB_0" startPos="3000" endPos="3086.6"/> -->
+	<!-- <busStop id="Stop11_1" lane="BTS_BA_0" startPos="0" endPos="86.6"/> -->
+	
+	
+	<!-- every 500 meters -->
+	<busStop id="Stop3_0" lane="BTS_AB_0" startPos="500" endPos="586.6"/>
+	<busStop id="Stop3_1" lane="BTS_BA_0" startPos="2500" endPos="2586.6"/>
+	<busStop id="Stop5_0" lane="BTS_AB_0" startPos="1000" endPos="1086.6"/>
+	<busStop id="Stop5_1" lane="BTS_BA_0" startPos="2000" endPos="2086.6"/>
+	<busStop id="Stop7_0" lane="BTS_AB_0" startPos="1500" endPos="1586.6"/>
+	<busStop id="Stop7_1" lane="BTS_BA_0" startPos="1500" endPos="1586.6"/>
+	<busStop id="Stop9_0" lane="BTS_AB_0" startPos="2000" endPos="2086.6"/>
+	<busStop id="Stop9_1" lane="BTS_BA_0" startPos="1000" endPos="1086.6"/>
+	<busStop id="Stop11_0" lane="BTS_AB_0" startPos="2500" endPos="2586.6"/>
+	<busStop id="Stop11_1" lane="BTS_BA_0" startPos="500" endPos="586.6"/>
+	
+	
+	<!-- every 1000 meters -->
+	<!-- <busStop id="Stop5_0" lane="BTS_AB_0" startPos="1000" endPos="1086.6"/> -->
+	<!-- <busStop id="Stop5_1" lane="BTS_BA_0" startPos="2000" endPos="2086.6"/> -->
+	<!-- <busStop id="Stop9_0" lane="BTS_AB_0" startPos="2000" endPos="2086.6"/> -->
+	<!-- <busStop id="Stop9_1" lane="BTS_BA_0" startPos="1000" endPos="1086.6"/> -->
+	
+	<!-- every 1500 meters -->
+	<!-- <busStop id="Stop7_0" lane="BTS_AB_0" startPos="1500" endPos="1586.6"/> -->
+	<!-- <busStop id="Stop7_1" lane="BTS_BA_0" startPos="1500" endPos="1586.6"/> -->
+
+
+</additional>

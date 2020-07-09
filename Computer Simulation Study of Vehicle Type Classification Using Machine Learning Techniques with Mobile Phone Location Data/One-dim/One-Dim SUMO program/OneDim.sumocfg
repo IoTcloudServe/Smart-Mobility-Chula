@@ -1,0 +1,15 @@
+<configuration>
+    <input>
+        <net-file value="OD.net.xml" />
+        <route-files value="OneDim.rou.xml" />
+		<additional-files value="OneDim.add.xml"/>
+		<lateral-resolution value = "0.7" />
+		<scale value = "1"/>
+		<time-to-teleport value="-1"/>
+    </input>
+    <time>
+        <begin value="21600" />
+		<end value="30600" />
+		
+    </time>
+</configuration>
