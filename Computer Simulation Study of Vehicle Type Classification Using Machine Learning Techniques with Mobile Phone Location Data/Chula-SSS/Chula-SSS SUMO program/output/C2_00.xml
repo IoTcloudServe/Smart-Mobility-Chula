@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/09/20 14:02:25 by Eclipse SUMO Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Chula_SSS_BTS_MC/Sathorn_BTS.net.xml"/>
+        <route-files value="Chula_SSS_BTS_MC/sathorn_car_mc_bts.rou.xml"/>
+        <additional-files value="Chula_SSS_BTS_MC/sathorn_busstop_scoped.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="21600"/>
+        <end value="22000"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.7"/>
+        <no-internal-links value="true"/>
+        <ignore-junction-blocker value="1"/>
+        <scale value="1"/>
+        <time-to-teleport value="300"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="50394"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="21600.00" end="22001.00" id="C2_00" nVehContrib="75" flow="673.32" occupancy="7.00" speed="9.51" harmonicMeanSpeed="9.01" length="3.35" nVehEntered="75"/>
+</detector>
