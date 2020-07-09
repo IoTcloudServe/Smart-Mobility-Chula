@@ -1,1 +1,0 @@
-SUMO Code for simulate one-dimension road
