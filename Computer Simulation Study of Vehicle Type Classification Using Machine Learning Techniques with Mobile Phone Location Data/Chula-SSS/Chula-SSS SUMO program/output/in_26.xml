@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/22/20 00:08:06 by Eclipse SUMO GUI Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:\paan\work\4th_year\project\Phase4\Chula_SSS_BTS_MC\Sathorn_BTS.net.xml"/>
+        <route-files value="E:\paan\work\4th_year\project\Phase4\Chula_SSS_BTS_MC\sathorn_car_mc_bts.rou.xml"/>
+        <additional-files value="E:\paan\work\4th_year\project\Phase4\Chula_SSS_BTS_MC\sathorn_busstop_scoped.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="21600"/>
+        <end value="32400"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.7"/>
+        <no-internal-links value="true"/>
+        <ignore-junction-blocker value="1"/>
+        <scale value="1"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>
