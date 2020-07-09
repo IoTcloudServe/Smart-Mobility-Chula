@@ -1,0 +1,18 @@
+<configuration>
+    <input>
+        <net-file value="Sathorn_BTS.net.xml" />
+        <route-files value="sathorn_car_mc_bts.rou.xml" />
+		<additional-files value="sathorn_busstop_scoped.add.xml"/>
+		<lateral-resolution value = "0.7" />
+		<scale value = "1"/>
+		<time-to-teleport value="300"/>
+		<no-internal-links value = "true"/>
+		<ignore-junction-blocker value = "1"/>
+		<random value = "true"/>
+    </input>
+    <time>
+        <begin value="21600" />
+		<end value="22000" />
+		
+    </time>
+</configuration>
