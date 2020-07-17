@@ -1,0 +1,70 @@
+#Raspi 1="e8:4e:06:5e:6b:09"
+#Raspi 2="e8:4e:06:5f:47:59"
+#Raspi 3="e8:4e:06:40:d3:7f"
+#Raspi 4 ="e8:4e:06:40:d3:db"
+#Raspi 5="e8:4e:06:40:dc:62"
+#Raspi 6="e8:4e:06:40:94:20"
+#gw2="e8:4e:06:5e:6a:b1"
+#gw1="e8:4e:06:40:d3:4b"
+#To install the Primary OpenFlow Rules in Raspi 4
+sudo nano /etc/rc.local
+sleep 3
+sudo ovs-vsctl --if-exists del-br br0
+#Bridge is added to OpenVswitch
+sudo ovs-vsctl add-br br0
+sudo ovs-vsctl set bridge br0 other-config:datapath-id=1000000000000004
+#Configure OpenVswitch in Userspace of Linux
+sudo ovs-vsctl set bridge br0 datapath_type=netdev
+#Added wireless interface under bridge in OpenVswitch
+sudo ovs-vsctl add-port br0 wlan0 -- set Interface wlan0 ofport_request=1
+sudo ifconfig wlan0 0
+sudo ifconfig br0 10.0.0.4 netmask 255.0.0.0 up
+sudo iptables -A INPUT -i wlan0 -j DROP#For only OpenVswitch in userspace
+sudo iptables -A FORWARD -i wlan0 -j DROP#For only OpenVswitch in userspace
+#Connect to RYU controller
+sudo ovs-vsctl set-controller br0 tcp:10.0.0.8:6633
+sudo ovs-vsctl set controller br0 connection-mode=out-of-band
+sudo ovs-vsctl set-fail-mode br0 secure
+sudo ovs-vsctl set bridge br0 stp_enable=true
+sudo ovs-vsctl set bridge br0 protocol=OpenFlow10,OpenFlow11,OpenFlow12,OpenFlow13
+#Receive the incoming traffic to Raspi 4 (10.0.0.4) from Raspi 1, Raspi 5 and Gateway 1
+sudo ovs-ofctl add-flow br0
+ip,priority=100,in_port=1,dl_src=e8:4e:06:40:d3:4b,nw_dst=10.0.0.4,actions=LOCAL
+sudo ovs-ofctl add-flow br0
+ip,priority=100,in_port=1,dl_src=e8:4e:06:40:dc:62,nw_dst=10.0.0.4,actions=LOCAL
+sudo ovs-ofctl add-flow br0 ip,priority=100,in_port=1,nw_src=10.0.0.1,actions=LOCAL
+sudo ovs-ofctl add-flow br0
+arp,priority=100,in_port=1,dl_src=e8:4e:06:40:d3:4b,arp_tpa=10.0.0.4,actions=LOCAL
+sudo ovs-ofctl add-flow br0
+arp,priority=100,in_port=1,dl_src=e8:4e:06:40:dc:62,arp_tpa=10.0.0.4,actions=LOCAL
+sudo ovs-ofctl add-flow br0 arp,priority=100,in_port=1,arp_spa=10.0.0.1,actions=LOCAL
+#Send the packet from Raspi 4 to other wireless node
+sudo ovs-ofctl add-flow br0
+arp,priority=95,in_port=LOCAL,arp_spa=10.0.0.4,actions="resubmit(,2)"
+sudo ovs-ofctl add-flow br0 ip,priority=95,in_port=LOCAL,nw_dst=10.0.0.8,actions=output:1
+sudo ovs-ofctl add-flow br0 ip,priority=95,in_port=LOCAL,nw_dst=10.0.0.1,actions=output:1
+sudo ovs-ofctl add-flow br0
+ip,priority=90,in_port=LOCAL,nw_src=10.0.0.4,actions="resubmit(,4)"
+#Relay the incoming traffic to other wireless nodes not to Raspi 4
+sudo ovs-ofctl add-flow br0
+arp,priority=90,in_port=1,dl_src=e8:4e:06:40:dc:62,actions="resubmit(,3)"
+sudo ovs-ofctl add-flow br0
+ip,priority=90,in_port=1,dl_src=e8:4e:06:40:dc:62,actions="resubmit(,3)"
+sudo ovs-ofctl add-flow br0
+arp,priority=90,in_port=1,dl_src=e8:4e:06:40:d3:4b,actions="resubmit(,4)"
+sudo ovs-ofctl add-flow br0
+ip,priority=90,in_port=1,dl_src=e8:4e:06:40:d3:4b,actions="resubmit(,4)"
+#Table 2 is to rewrite the destination MAC address into broadcast MAC address
+sudo ovs-ofctl add-flow br0
+table=2,actions=mod_dl_dst:ff:ff:ff:ff:ff:ff,"load:0->OXM_OF_IN_PORT[],resubmit(,5)"
+#Table 3 is to rewrite the destination MAC address into Gateway 1's MAC address
+sudo ovs-ofctl add-flow br0
+table=3,actions=mod_dl_dst:e8:4e:06:40:d3:4b,"load:0->OXM_OF_IN_PORT[],resubmit(,5)"
+#Table 4 is to rewrite the destination MAC address into Raspi 5's MAC address
+sudo ovs-ofctl add-flow br0
+table=4,actions=mod_dl_dst:e8:4e:06:40:dc:62,"load:0->OXM_OF_IN_PORT[],resubmit(,5)"
+#Table 5 is to forward to wireless interface
+sudo ovs-ofctl add-flow br0 table=5,actions=output:1
+sudo ovs-ofctl add-flow br0 priority=1,in_port=1,actions=drop
+sudo sysctl -p
+exit 0
