@@ -1,6 +1,6 @@
 # Chula-SSS Vehicle Type Classification
 
-1. Run chula-sss_get_raw.py to get raw data file as csv file or download on https://drive.google.com/drive/folders/1TFTM5Pc_OESkaVsAE2klWzyicE6xhuYl?usp=sharing including vehicle ID (ID), vehicle type (Class), time in second (Time), x-coordinate in meter (PositionX), and y-coordinate in meter (PositionY)
+1. Run chula-sss_get_raw.py or download on https://drive.google.com/drive/folders/1TFTM5Pc_OESkaVsAE2klWzyicE6xhuYl?usp=sharing to get raw data file as csv file including vehicle ID (ID), vehicle type (Class), time in second (Time), x-coordinate in meter (PositionX), and y-coordinate in meter (PositionY)
 
 2. Run chula-sss_get_cell_position.py to get the location of cell tower, changing cell_dist variable for varying the cell tower inter-spacing
 
