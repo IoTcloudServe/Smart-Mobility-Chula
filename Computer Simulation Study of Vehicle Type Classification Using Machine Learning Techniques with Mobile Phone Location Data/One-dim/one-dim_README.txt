@@ -1,6 +1,6 @@
 One-Dim Vehicle Type Classification
 
-1. Run one-dim_get_raw.py to get the raw data, 
+1. Run one-dim_get_raw.py to get the raw data or download on https://drive.google.com/drive/folders/1TFTM5Pc_OESkaVsAE2klWzyicE6xhuYl?usp=sharing
 	including vehicle ID (ID), vehicle type (Class), time in second (Time), 
 	x-coordinate in meter (PositionX), and y-coordinate in meter (PositionY)
 2. Run one-dim_get_cdt.py to convert the data to cell-dwelled time data 
