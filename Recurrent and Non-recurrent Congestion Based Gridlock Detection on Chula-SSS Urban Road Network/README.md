@@ -2,5 +2,4 @@
 
 This folder contains the materials from:
 
-Thanapapas Horsuwan and Chaodit Aswakul, "Reinforcement Learning Agent under Partial Observability for Traffic Light Control in Presence of Gridlocks," EPiC Series in Computing, vol. 62, pp. 29-47, 2019, url = https://easychair.org/publications/paper/nsT5, doi = 10.29007/bdgn.
-
+Ei Ei Mon, Hideya Ochiai, Chaiyachet Saivichit and Chaodit Aswakul, "Recurrent and Non-recurrent Congestion Based Gridlock Detection on Chula-SSS Urban Road Network," EPiC Series in Computing, vol. 62, pp. 158-171, 2019, url = https://easychair.org/publications/paper/vxbj, doi = 10.29007/cxkb.
