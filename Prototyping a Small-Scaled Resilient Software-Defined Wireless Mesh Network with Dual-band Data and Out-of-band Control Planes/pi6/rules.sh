@@ -1,0 +1,10 @@
+sudo ovs-ofctl add-flow br1 arp,priority=100,in_port=2,dl_src=24:fd:52:27:99:95,arp_tpa=192.168.0.6,actions=LOCAL
+sudo ovs-ofctl add-flow br1 ip,priority=100,in_port=2,dl_src=24:fd:52:27:99:95,nw_dst=192.168.0.6,actions=LOCAL
+sudo ovs-ofctl add-flow br1 arp,priority=100,in_port=2,dl_src=24:fd:52:27:9c:0c,arp_tpa=192.168.0.6,actions=LOCAL
+sudo ovs-ofctl add-flow br1 ip,priority=100,in_port=2,dl_src=24:fd:52:27:9c:0c,nw_dst=192.168.0.6,actions=LOCAL
+sudo ovs-ofctl add-flow br1 arp,priority=100,in_port=LOCAL,actions=output:2
+sudo ovs-ofctl add-flow br1 ip,priority=100,in_port=LOCAL,actions=output:2
+sudo ovs-ofctl add-flow br1 arp,priority=80,in_port=2,dl_src=24:fd:52:27:9c:0c,arp_tpa=192.168.0.6,actions=LOCAL
+sudo ovs-ofctl add-flow br1 ip,priority=80,in_port=2,dl_src=24:fd:52:27:9c:0c,nw_dst=192.168.0.6,actions=LOCAL
+sudo ovs-ofctl add-flow br1 arp,priority=80,in_port=LOCAL,actions=output:2
+sudo ovs-ofctl add-flow br1 ip,priority=80,in_port=LOCAL,actions=output:2
