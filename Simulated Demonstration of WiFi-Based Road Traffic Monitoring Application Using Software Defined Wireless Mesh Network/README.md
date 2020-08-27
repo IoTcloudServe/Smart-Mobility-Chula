@@ -10,7 +10,7 @@
   Software-defined wireless mesh network (SDWMN) is developed and installed on Phayathai road in front of Chulalongkorn University for sending traffic image to two traffic police boxes. The system consists of 6 Raspberry Pi nodes (PI1 – PI6) equipped with a camera that is installed on the cross over bridge connected with wireless links and two gateways that are installed inside the traffic police boxes to present the police traffic photography. 
 
 <p align="center">
-## <strong> Wifi packet measurement  </strong> 
+<strong> Wifi packet measurement  </strong> 
 <p align="center">
  
 <p align="center">
