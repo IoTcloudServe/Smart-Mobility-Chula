@@ -1,7 +1,7 @@
 # Simulated Demonstration of WiFi-Based Road Traffic Monitoring Application Using Software Defined Wireless Mesh Network
 
 <p align="center">
-### Software-defined wireless mesh network 
+<strong> Software-defined wireless mesh network </strong> 
 <p align="center">
  
 <p align="center">
