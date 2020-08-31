@@ -17,7 +17,7 @@
   <img width="460" height="300" src="https://github.com/IoTcloudServe/Smart-Mobility-Chula/blob/master/Simulated%20Demonstration%20of%20WiFi-Based%20Road%20Traffic%20Monitoring%20Application%20Using%20Software%20Defined%20Wireless%20Mesh%20Network/sniff_ssid.PNG">
 </p>
 
- This experiment uses a raspberry pi 4 model B as a node for measuring WIFI packets. The experiment is performed in the actual site where SDWMN is installed on Phayathai Road. During installation, the SDWMN node connects to the internet in order to synchronize the time in every node with NTP (network time protocol) program. Actual data collect from WIFI packet wireless communication measurement by using RSSI [9] module python program to develop the software. With this program, the WIFI in sensing range will be searched and perceive the received signal power. The software will be set in the SDWMN equipment to record SSID, received signal power and detected timestamp. The program scans and records the WIFI packet every 10 seconds.
+&nbsp; This experiment uses a raspberry pi 4 model B as a node for measuring WIFI packets. The experiment is performed in the actual site where SDWMN is installed on Phayathai Road. During installation, the SDWMN node connects to the internet in order to synchronize the time in every node with NTP (network time protocol) program. Actual data collect from WIFI packet wireless communication measurement by using RSSI module python program to develop the software. With this program, the WIFI in sensing range will be searched and perceive the received signal power. The software will be set in the SDWMN equipment to record SSID, received signal power and detected timestamp. The program scans and records the WIFI packet every 10 seconds.
 
 <p align="center">
 <strong> Simulation of Wifi packet measurement by SUMO  </strong> 
@@ -26,3 +26,19 @@
 <p align="center">
   <img width="460" height="300" src="https://github.com/IoTcloudServe/Smart-Mobility-Chula/blob/master/Simulated%20Demonstration%20of%20WiFi-Based%20Road%20Traffic%20Monitoring%20Application%20Using%20Software%20Defined%20Wireless%20Mesh%20Network/sdwmn_sumo.PNG">
 </p>
+
+&nbsp; In this research, the SUMO program is used to create a traffic model. This program can determine the position of the vehicle on the simulated road at any time. Then, using Python to create a wifi package measurement by using the Free space propagation model.
+
+<details>
+    <summary>Click Here for SUMO</summary>
+  <p align="center">
+  <img width="460" height="300" src="https://github.com/IoTcloudServe/Smart-Mobility-Chula/blob/master/Simulated%20Demonstration%20of%20WiFi-Based%20Road%20Traffic%20Monitoring%20Application%20Using%20Software%20Defined%20Wireless%20Mesh%20Network/sdwmn_sumo.PNG">
+</p>
+  
+&nbsp; SUMO is a free and open source traffic simulation suite. It is available since 2001 and allows modelling of intermodal traffic systems - including road vehicles, public transport and pedestrians. Included with SUMO is a wealth of supporting tools which automate core tasks for the creation, the execution and evaluation of traffic simulations, such as network import, route calculations, visualization and emission calculation. SUMO can be enhanced with custom models and provides various APIs to remotely control the simulation.
+</details>
+
+<details>
+    <summary>Click Here for Free space propagation</summary>
+&nbsp; The free space propagation model assumes a transmit antenna and a receive antenna to be located in an otherwise empty environment. Neither absorbing obstacles nor reflecting surfaces are considered. In particular, the influence of the earth surface is assumed to be entirely absent.
+</details>
