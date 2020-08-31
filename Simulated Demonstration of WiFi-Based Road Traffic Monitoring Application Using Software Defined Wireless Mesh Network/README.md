@@ -77,7 +77,7 @@
 </p>
 
 <p align="center">
-Link : mobilitydata.wirelessqualityanalysis.202.28.193.100.xip.io
+Link : mobilitydata.wirelessqualityanalysis.202.28.193.100.xip.io <br>
 Token : e2dc19de19b9a649823207dbb1e8a99d5598e8697362b00a
 </p>
 
