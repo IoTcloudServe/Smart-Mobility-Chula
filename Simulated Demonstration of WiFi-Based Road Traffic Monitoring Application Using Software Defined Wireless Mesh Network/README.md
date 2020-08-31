@@ -1,4 +1,8 @@
-# Simulated Demonstration of WiFi-Based Road Traffic Monitoring Application Using Software Defined Wireless Mesh Network
+<h1>
+<p align="center">
+<strong> Simulated Demonstration of WiFi-Based Road Traffic Monitoring Application Using Software Defined Wireless Mesh Network </strong>
+<p align="center">
+</h1> 
 
 <h3>
 <p align="center">
