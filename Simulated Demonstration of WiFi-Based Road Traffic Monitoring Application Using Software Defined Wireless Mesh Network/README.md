@@ -68,16 +68,15 @@
 
 <a href="https://202.28.193.103/login"><h1 align="center">
 <img width="10%" alt="registration" src ="https://github.com/IoTcloudServe/Smart-Mobility-Chula/blob/master/Simulated%20Demonstration%20of%20WiFi-Based%20Road%20Traffic%20Monitoring%20Application%20Using%20Software%20Defined%20Wireless%20Mesh%20Network/icon-demo.png" /></h1>
- 
- 
+</a>
+
 <p align="center">
 <h5>or</h5>
 </p>
 
-</a>
+<p align="center">
+  <img width="13%" src="https://github.com/IoTcloudServe/Smart-Mobility-Chula/blob/master/Simulated%20Demonstration%20of%20WiFi-Based%20Road%20Traffic%20Monitoring%20Application%20Using%20Software%20Defined%20Wireless%20Mesh%20Network/jupeter.png">
+Link : mobilitydata.wirelessqualityanalysis.202.28.193.100.xip.io
+Token : e2dc19de19b9a649823207dbb1e8a99d5598e8697362b00a
+</p>
 
-<a href="mobilitydata.wirelessqualityanalysis.202.28.193.100.xip.io"><h1 align="center">
-<img width="15%" alt="registration" src ="https://github.com/IoTcloudServe/Smart-Mobility-Chula/blob/master/Simulated%20Demonstration%20of%20WiFi-Based%20Road%20Traffic%20Monitoring%20Application%20Using%20Software%20Defined%20Wireless%20Mesh%20Network/jupeter.png" /></h1>
-</a>
-
-token : e2dc19de19b9a649823207dbb1e8a99d5598e8697362b00a
