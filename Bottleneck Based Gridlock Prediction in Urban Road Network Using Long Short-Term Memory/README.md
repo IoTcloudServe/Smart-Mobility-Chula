@@ -1,7 +1,6 @@
 # Smart-Mobility@Chula Demonstration Site of IoTcloudServe@TEIN Project
 
-This folder contains the materials from:
+Bottleneck Based Gridlock Prediction in an Urban Road Network Using Long Short-Term Memory
 
-Ei Ei Mon, Hideya Ochiai, Chaiyachet Saivichit and Chaodit Aswakul, "Bottleneck Based Gridlock Prediction in Urban Road Network Using Long Short-Term Memory," submitted for journal, 2020.
-
-Remark: To be made public after the journal publication.
+Mon, E.E.; Ochiai, H.; Saivichit, C.; Aswakul, C. Bottleneck Based Gridlock Prediction in an Urban Road Network Using Long Short-Term Memory. Electronics 2020, 9, 1412.
+https://doi.org/10.3390/electronics9091412
