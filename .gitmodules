@@ -1,0 +1,3 @@
+[submodule "Reinforcement Learning Agent under Partial Observability for Traffic Light Control in Presence of Gridlocks/sumo-sathorn-ray"]
+	path = Reinforcement Learning Agent under Partial Observability for Traffic Light Control in Presence of Gridlocks/sumo-sathorn-ray
+	url = https://github.com/Knight-H/sumo-sathorn-ray
