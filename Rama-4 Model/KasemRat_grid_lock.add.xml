@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07/20/20 14:46:19 by Eclipse SUMO netedit Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/Users/book/Downloads/Sumo(1)/KasemRat_grid_lock.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/book/Downloads/Sumo(1)/KasemRat_grid_lock.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/Users/book/Downloads/Sumo(1)/KasemRat_grid_lock.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="busStop_153225678#2_0_1" lane="153225678#2_0" startPos="44.03" endPos="54.03"/>
+    <busStop id="busStop_825786415_0_0" lane="825786415_0" startPos="17.13" endPos="27.13"/>
+
+
+
+	<!--inter_5naranong-->
+
+	<!--enter inter_5naranong : Sutornkosa form Suragakorn  -->
+	<laneAreaDetector id="338595767" lanes="338595767_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="338595767_1" lanes="338595767_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="338595767_2" lanes="338595767_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="338595767_3" lanes="338595767_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--exit inter_5naranong : Sutornkosa to Suragakorn  -->
+	<laneAreaDetector id="185563494" lanes="185563494_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--enter inter_5naranong : Ratchadapisek-->
+	<laneAreaDetector id="824116550#0" lanes="824116550#0_0" pos="78" endPos="94"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116550#0_1" lanes="824116550#0_1" pos="78" endPos="94"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--exit inter_5naranong : Ratchadapisek-->
+	<laneAreaDetector id="338595771#1" lanes="338595771#1_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="338595771#1_1" lanes="338595771#1_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+	<!--enter inter_5naranong : Sutornkosa form khlongtoei-->
+	<laneAreaDetector id="824116544" lanes="824116544_0" pos="61" endPos="77"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116544_1" lanes="824116544_1" pos="61" endPos="77"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116544_2" lanes="824116544_2" pos="61" endPos="77"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--exit inter_5naranong : Sutornkosa form khlongtoei-->
+	<laneAreaDetector id="25047974#0" lanes="25047974#0_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="25047974#0_1" lanes="25047974#0_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="25047974#0_2" lanes="25047974#0_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="25047974#0_3" lanes="25047974#0_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--enter inter_5naranong : Rama3-->
+	<laneAreaDetector id="25053626" lanes="25053626_0" pos="146" endPos="162"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="25053626_1" lanes="25053626_1" pos="146" endPos="162"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--exit inter_5naranong : Rama3-->
+	<laneAreaDetector id="824116553" lanes="824116553_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116553_1" lanes="824116553_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116553_2" lanes="824116553_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--enter inter_5naranong : naranong-->
+	<laneAreaDetector id="157063979" lanes="157063979_0" pos="17" endPos="33"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="157063979_1" lanes="157063979_1" pos="17" endPos="33"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="157063979_2" lanes="157063979_2" pos="17" endPos="33"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit inter_5naranong : naranong-->
+	<laneAreaDetector id="157063985#0" lanes="157063985#0_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="157063985#0_1" lanes="157063985#0_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+
+
+
+
+
+	<!--inter_Rama4-->
+
+
+	<!--enter inter_Rama4 : Rama4 entry-->
+	<laneAreaDetector id="825786415" lanes="825786415_0" pos="40" endPos="56"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="825786415_1" lanes="825786415_1" pos="40" endPos="56"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="825786415_2" lanes="825786415_2" pos="40" endPos="56"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="825786415_3" lanes="825786415_3" pos="40" endPos="56"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="825786415_4" lanes="825786415_4" pos="40" endPos="56"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="825786415_5" lanes="825786415_5" pos="40" endPos="56"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit inter_Rama4 : Rama4 out-->
+	<laneAreaDetector id="153225678#1-AddedOnRampEdge" lanes="153225678#1-AddedOnRampEdge_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="153225678#1-AddedOnRampEdge_1" lanes="153225678#1-AddedOnRampEdge_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="153225678#1-AddedOnRampEdge_2" lanes="153225678#1-AddedOnRampEdge_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="153225678#1-AddedOnRampEdge_3" lanes="153225678#1-AddedOnRampEdge_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="153225678#1-AddedOnRampEdge_4" lanes="153225678#1-AddedOnRampEdge_4" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+	<!--enter inter_Rama4 : Ratchadapisek form asok-->
+	<laneAreaDetector id="821785869#0" lanes="821785869#0_0" pos="107" endPos="123"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="821785869#0_1" lanes="821785869#0_1" pos="107" endPos="123"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="821785869#0_2" lanes="821785869#0_2" pos="107" endPos="123"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="821785869#0_3" lanes="821785869#0_3" pos="107" endPos="123"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit inter_Rama4 : Ratchadapisek form asok-->
+	<laneAreaDetector id="481971013#1-AddedOnRampEdge" lanes="481971013#1-AddedOnRampEdge_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971013#1-AddedOnRampEdge_1" lanes="481971013#1-AddedOnRampEdge_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971013#1-AddedOnRampEdge_2" lanes="481971013#1-AddedOnRampEdge_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971013#1-AddedOnRampEdge_3" lanes="481971013#1-AddedOnRampEdge_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--enter inter_Rama4 : Rama4 out-->
+	<laneAreaDetector id="459492917#0" lanes="459492917#0_0" pos="90" endPos="106"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492917#0_1" lanes="459492917#0_1" pos="90" endPos="106"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492917#0_2" lanes="459492917#0_2" pos="90" endPos="106"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492917#0_3" lanes="459492917#0_3" pos="90" endPos="106"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492917#0_4" lanes="459492917#0_4" pos="90" endPos="106"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--enter inter_Rama4 : Rama4 in-->
+	<laneAreaDetector id="481971011#1-AddedOnRampEdge" lanes="481971011#1-AddedOnRampEdge_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971011#1-AddedOnRampEdge_1" lanes="481971011#1-AddedOnRampEdge_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971011#1-AddedOnRampEdge_2" lanes="481971011#1-AddedOnRampEdge_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971011#1-AddedOnRampEdge_3" lanes="481971011#1-AddedOnRampEdge_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971011#1-AddedOnRampEdge_4" lanes="481971011#1-AddedOnRampEdge_4" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971011#1-AddedOnRampEdge_5" lanes="481971011#1-AddedOnRampEdge_5" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+	<!--enter inter_Rama4 : Ratchanapisek form inter_5naranong-->
+	<laneAreaDetector id="824116548" lanes="824116548_0" pos="30" endPos="46"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116548_1" lanes="824116548_1" pos="30" endPos="46"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116548_2" lanes="824116548_2" pos="30" endPos="46"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116548_3" lanes="824116548_3" pos="30" endPos="46"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--exit inter_Rama4 : Ratchanapisek form inter_5naranong-->
+	<laneAreaDetector id="824116549#0" lanes="824116549#0_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116549#0_1" lanes="824116549#0_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116549#0_2" lanes="824116549#0_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116549#0_3" lanes="824116549#0_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--inter khlong Toei-->
+	<!--enter khlong Toei : Rama4 in-->
+	<laneAreaDetector id="481971011#1" lanes="481971011#1_0" pos="0" endPos="12"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971011#1_1" lanes="481971011#1_1" pos="0" endPos="12"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971011#1_2" lanes="481971011#1_2" pos="0" endPos="12"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971011#1_3" lanes="481971011#1_3" pos="0" endPos="12"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="481971011#1_4" lanes="481971011#1_4" pos="0" endPos="12"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit khlong Toei : Rama4 out-->
+	<!--
+	<laneAreaDetector id="459492917#0" lanes="459492917#0_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492917#0_1" lanes="459492917#0_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492917#0_2" lanes="459492917#0_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492917#0_3" lanes="459492917#0_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+	-->
+
+	<!--enter khlong Toei : Rama4 out-->
+	<laneAreaDetector id="825786400" lanes="825786400_0" pos="157" endPos="173"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="825786400_1" lanes="825786400_1" pos="157" endPos="173"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="825786400_2" lanes="825786400_2" pos="157" endPos="173"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="825786400_3" lanes="825786400_3" pos="157" endPos="173"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="825786400_4" lanes="825786400_4" pos="157" endPos="173"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit khlong Toei : Rama4 out-->
+	<laneAreaDetector id="459492913#0" lanes="459492913#0_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492913#0_1" lanes="459492913#0_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492913#0_2" lanes="459492913#0_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492913#0_3" lanes="459492913#0_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit khlong Toei : Sutornkosa-->
+	<laneAreaDetector id="459492916#0" lanes="459492916#0_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492916#0_1" lanes="459492916#0_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492916#0_2" lanes="459492916#0_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459492916#0_3" lanes="459492916#0_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--enter khlong Toei : Sutornkosa-->
+	<laneAreaDetector id="25047974#2" lanes="25047974#2_0" pos="100" endPos="116"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="25047974#2_1" lanes="25047974#2_1" pos="100" endPos="116"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="25047974#2_2" lanes="25047974#2_2" pos="100" endPos="116"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="25047974#2_3" lanes="25047974#2_3" pos="100" endPos="116"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+
+
+
+
+
+	<!-- kasert Rat-->
+	<!--enter kasert Rat : Rama4 out-->
+	<laneAreaDetector id="459551209#3" lanes="459551209#3_0" pos="88" endPos="104"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459551209#3_1" lanes="459551209#3_1" pos="88" endPos="104"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459551209#3_2" lanes="459551209#3_2" pos="88" endPos="104"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="459551209#3_3" lanes="459551209#3_3" pos="88" endPos="104"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit kasert Rat : Rama4 out-->
+	<laneAreaDetector id="482209830#0" lanes="482209830#0_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482209830#0_1" lanes="482209830#0_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482209830#0_2" lanes="482209830#0_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+	<!--enter kasert Rat : Rama4 in-->
+	<laneAreaDetector id="820373194#0" lanes="820373194#0_0" pos="244" endPos="260"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="820373194#0_1" lanes="820373194#0_1" pos="244" endPos="260"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="820373194#0_2" lanes="820373194#0_2" pos="244" endPos="260"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--exit kasert Rat : Rama4 in-->
+	<laneAreaDetector id="482209831#0" lanes="482209831#0_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482209831#0_1" lanes="482209831#0_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482209831#0_2" lanes="482209831#0_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--enter kasert Rat : kasert Rat-->
+	<laneAreaDetector id="321845933#3" lanes="321845933#3_0" pos="50" endPos="66"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="321845933#3_1" lanes="321845933#3_1" pos="50" endPos="66"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="321845933#3_2" lanes="321845933#3_2" pos="50" endPos="66"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--exit kasert Rat : kasert Rat-->
+	<laneAreaDetector id="482209833#0" lanes="482209833#0_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482209833#0_1" lanes="482209833#0_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482209833#0_2" lanes="482209833#0_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+
+
+	<!--Surakakorn-->
+	<!--enter Surakakorn : Sutornkosa-->
+	<laneAreaDetector id="824116555#0-AddedOffRampEdge" lanes="824116555#0-AddedOffRampEdge_0" pos="75" endPos="91"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116555#0-AddedOffRampEdge_1" lanes="824116555#0-AddedOffRampEdge_1" pos="75" endPos="91"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116555#0-AddedOffRampEdge_2" lanes="824116555#0-AddedOffRampEdge_2" pos="75" endPos="91"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="824116555#0-AddedOffRampEdge_3" lanes="824116555#0-AddedOffRampEdge_3" pos="75" endPos="91"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit Surakakorn : Sutornkosa-->
+	<laneAreaDetector id="482384850#1-AddedOnRampEdge" lanes="482384850#1-AddedOnRampEdge_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482384850#1-AddedOnRampEdge_1" lanes="482384850#1-AddedOnRampEdge_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482384850#1-AddedOnRampEdge_2" lanes="482384850#1-AddedOnRampEdge_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482384850#1-AddedOnRampEdge_3" lanes="482384850#1-AddedOnRampEdge_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+
+	<!--enter Surakakorn : kasert Rat form Inter_kasert Rat-->
+	<laneAreaDetector id="292571830-AddedOffRampEdge" lanes="292571830-AddedOffRampEdge_0" pos="75" endPos="91"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="292571830-AddedOffRampEdge_1" lanes="292571830-AddedOffRampEdge_1" pos="75" endPos="91"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="292571830-AddedOffRampEdge_2" lanes="292571830-AddedOffRampEdge_2" pos="75" endPos="91"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="292571830-AddedOffRampEdge_3" lanes="292571830-AddedOffRampEdge_3" pos="75" endPos="91"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit Surakakorn : kasert Rat form Inter_kasert Rat-->
+	<laneAreaDetector id="482384842#1-AddedOnRampEdge" lanes="482384842#1-AddedOnRampEdge_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482384842#1-AddedOnRampEdge_1" lanes="482384842#1-AddedOnRampEdge_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482384842#1-AddedOnRampEdge_2" lanes="482384842#1-AddedOnRampEdge_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482384842#1-AddedOnRampEdge_3" lanes="482384842#1-AddedOnRampEdge_3" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+	<!--enter Surakakorn : kasert Rat form ta_rua-->
+	<laneAreaDetector id="153225687#10-AddedOffRampEdge" lanes="153225687#10-AddedOffRampEdge_0" pos="84" endPos="100"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="153225687#10-AddedOffRampEdge_1" lanes="153225687#10-AddedOffRampEdge_1" pos="84" endPos="100"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="153225687#10-AddedOffRampEdge_2" lanes="153225687#10-AddedOffRampEdge_2" pos="84" endPos="100"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--exit Surakakorn : kasert Rat form ta_rua-->
+	<laneAreaDetector id="292576585#1-AddedOnRampEdge" lanes="292576585#1-AddedOnRampEdge_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="292576585#1-AddedOnRampEdge_1" lanes="292576585#1-AddedOnRampEdge_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="292576585#1-AddedOnRampEdge_2" lanes="292576585#1-AddedOnRampEdge_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+	<!--exit Surakakorn : ardnarong-->
+	<laneAreaDetector id="482384848#1" lanes="482384848#1_0" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482384848#1_1" lanes="482384848#1_1" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="482384848#1_2" lanes="482384848#1_2" pos="0" endPos="16"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<!--enter Surakakorn : ardnarong-->
+	<laneAreaDetector id="45033613#0" lanes="45033613#0_0" pos="64" endPos="80"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="45033613#0_1" lanes="45033613#0_1" pos="64" endPos="80"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+	<laneAreaDetector id="45033613#0_2" lanes="45033613#0_2" pos="64" endPos="80"
+    friendlyPos="True" freq="900" file="map_grid_lock_output1.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+
+
+
+
+
+	<!--<laneAreaDetector id="38595767_1" lanes="<338595767_0> <338595767_1> <338595767_2> <338595767_3>"
+    pos="0" endPos="16"
+    friendlyPos="True" freq="5" file="map_grid_lock_output.xml"
+    timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>-->
+
+    <!--tl="<TRAFFIC_LIGHT_ID>"  to="<LANE_ID>"/>
+	-->
+</additional>
