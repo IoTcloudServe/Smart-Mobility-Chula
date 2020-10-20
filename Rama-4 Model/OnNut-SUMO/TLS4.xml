@@ -1,0 +1,23 @@
+<additionals>
+    <tlLogic id="cluster_1088409501_272206263_5136790697_70702637" type="static" programID="0" offset="0">
+        <phase duration="24" state="gGGGgrrrrrrrgggGGGgg"/>
+        <phase duration="3"  state="yyyygrrrrrrrgggyyygg"/>
+        <phase duration="24" state="rrrrGGGGGGGGgggrrrrr"/>
+        <phase duration="3"  state="rrrrgyyyyyyyyyyrrrrr"/>
+    </tlLogic>
+    <tlLogic id="cluster_272206256_272448121_277360977" type="static" programID="0" offset="0">
+        <phase duration="24" state="gggGGGGGGrrrrrrrrrrrr"/>
+        <phase duration="6"  state="yyyyyyyyyrrrrrrrrrrrr"/>
+        <phase duration="24" state="rrrrrrGGGgggGGGrrrrrr"/>
+        <phase duration="6"  state="rrrrrryyyyyyyyyrrrrrr"/>
+        <phase duration="24" state="GGGrrrrrrrrrGGGgggggg"/>
+        <phase duration="6"  state="yyyrrrrrrrrryyyyyyyyy"/>
+    </tlLogic>
+    <tlLogic id="cluster_313173111_3810777044" type="static" programID="0" offset="0">
+        <phase duration="39" state="GGGggrrrrgGGGg"/>
+        <phase duration="6"  state="yyyyyrrrryyyyy"/>
+        <phase duration="39" state="rrrrrGGggGrrrr"/>
+        <phase duration="6"  state="rrrrryyyyyrrrr"/>
+    </tlLogic>
+
+</additionals>
