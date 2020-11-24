@@ -6,6 +6,7 @@ Installation:
 
 	python 3.5 
 	PyCharm 5 
+	Anaconda  https://www.anaconda.com/products/individual#download-section
 
 
 Main Files 
