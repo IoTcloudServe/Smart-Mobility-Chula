@@ -23,11 +23,11 @@ Dataset
 IncidentDetection/ 
 
 	1) dataset/NormalCase/
-		- seed50_Correct_2s				- for data collection interval with 2 s
+		- seed50_Correct_2s		- for data collection interval with 2 s
 
 	2) dataset/AccidentCase/LaneClosure/L10130/seed50_20min/
 		-2s interval
-			- 1 close			- for one-lane closure
+			- 1 close		- for one-lane closure
 			- 1,2 close 		- for two-lane closure
 			- 1,2,3 close		- for three-lane closure
 
