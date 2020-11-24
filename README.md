@@ -2,7 +2,7 @@
 
 | Publication / Demo       | Folder| 
 | ------------- |:-------------:| 
-| Ei Ei Mon, Hideya Ochiai, Chaiyachet Saivichit and Chaodit Aswakul, "Bottleneck Based Gridlock Prediction in Urban Road Network Using Long Short-Term Memory," submitted for journal, 2020.| Bottleneck Based Gridlock Prediction in Urban Road Network Using Long Short-Term Memory | 
+| Ei Ei Mon, Hideya Ochiai, Chaiyachet Saivichit and Chaodit Aswakul, "Bottleneck Based Gridlock Prediction in Urban Road Network Using Long Short-Term Memory," Electronics 2020, 9, 1412. https://doi.org/10.3390/electronics9091412| Bottleneck Based Gridlock Prediction in Urban Road Network Using Long Short-Term Memory | 
 |C. Eosanurak, N. Wongtrakoon, E. Mon and C. Aswakul, "Computer simulation study of vehicle type classification using machine learning techniques with mobile phone location data," accepted for SUMO User Conference 2020, 2020.     |Computer Simulation Study of Vehicle Type Classification Using Machine Learning Techniques with Mobile Phone Location Data|   
 | Soe Ye Htet and Choadit Aswakul, "Design and Implementation of Outdoor Fault-Tolerant In-Band Software-Defined Wireless Mesh Network with Observable Node Reachability," submitted for journal, 2020.| Design and Implementation of Outdoor Faulty-Tolerant In-Band Software-Defined Wireless Mesh Network with Observable Node Reachability     | 
 |  Phoo Phoo Thet Lyar Tun and Chaodit Aswakul, "Design and Preliminary Functionality Test of Road Network Traffic Monitoring System Based on Indoor SDWMN In-Band Architecture", submitted for conference, 2020.|Design and Preliminary Functionality Test of Road Network Traffic Monitoring System Based on Indoor SDWMN In-Band Architecture     | 
