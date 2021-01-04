@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07/17/20 21:28:30 by Eclipse SUMO GUI Version 1.6.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="map_grid_lock_add2TL_copy_newTLS.net.xml"/>
+        <route-files value="initial01.rou.xml"/>
+	<additional-files value="initial01.add.xml"/>
+    </input>
+	<time>
+		<begin value = "0"/>
+		<end value = "14400"/>
+	</time>
+
+</configuration>
