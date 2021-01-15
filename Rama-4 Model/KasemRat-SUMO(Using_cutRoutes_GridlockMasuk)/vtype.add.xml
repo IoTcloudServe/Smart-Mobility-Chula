@@ -1,0 +1,3 @@
+<additional>
+  <vType accel="2.0" decel="2.5" id="passenger" length="4.62" minGap="2.37" maxSpeed="12.5" sigma="0.7"/>
+</additional>

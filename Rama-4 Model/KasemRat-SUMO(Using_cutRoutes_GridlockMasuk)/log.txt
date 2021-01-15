@@ -1,0 +1,79 @@
+
+C:\Users\Traffic Team\Desktop\2020-12-30-20-31-34(KasemRat-SUMO)_Using_cutRoutes_createGridlockMasuk>netconvert --sumo-net-file osm.net.xml --lefthand --remove-edges.by-vclass hov,taxi,bus,delivery,transport,lightrail,cityrail,rail_slow,rail_fast,motorcycle,bicycle,pedestrian --no-internal-links --keep-edges.by-vclass passenger --remove-edges.by-type highway.track,highway.services,highway.unsurfaced -o osm_new.net.xml
+Warning: The vehicle class 'transport' is deprecated, use 'truck' instead.
+Warning: The vehicle class 'lightrail' is deprecated, use 'tram' instead.
+Warning: The vehicle class 'cityrail' is deprecated, use 'rail_urban' instead.
+Warning: The vehicle class 'rail_slow' is deprecated, use 'rail' instead.
+Warning: Ambiguity in turnarounds computation at junction '8185769633'.
+Warning: Found sharp turn with radius 7.15 at the start of edge '-153714072#1'.
+Warning: Found angle of 128.42 degrees at edge '-294808467#0', segment 2.
+Warning: Found sharp turn with radius 1.64 at the end of edge '-340089692#2'.
+Warning: Found sharp turn with radius 4.78 at the end of edge '-351850681#1'.
+Warning: Found angle of 128.42 degrees at edge '-693832664', segment 4.
+Warning: Found sharp turn with radius 7.15 at the end of edge '153714072#0'.
+Warning: Found sharp turn with radius 2.53 at the start of edge '156966566#2'.
+Warning: Found sharp turn with radius 8.56 at the start of edge '157059852'.
+Warning: Found sharp turn with radius 6.63 at the end of edge '157059852'.
+Warning: Found sharp turn with radius 5.64 at the end of edge '157059855'.
+Warning: Found sharp turn with radius 1.64 at the start of edge '340089692#0'.
+Warning: Found sharp turn with radius 4.78 at the start of edge '351850681#0'.
+Warning: 8 total messages of type: Found sharp turn with radius % at the end of edge '%'.
+Warning: 6 total messages of type: Found sharp turn with radius % at the start of edge '%'.
+Success.
+
+C:\Users\Traffic Team\Desktop\2020-12-30-20-31-34(KasemRat-SUMO)_Using_cutRoutes_createGridlockMasuk>python "C:\Program Files\DLR\sumo-1.6.0\tools\route\cutRoutes.py" osm_new.net.xml routes.rou.xml --routes-output routes_new_output.rou.xml --orig-net osm.net.xml
+Valid area contains 1120 edges
+Parsing routes from routes.rou.xml
+Parsed 1473 vehicles, 0 persons, 0 flows and kept 1473 routes
+Number of disconnected routes: 0. Most frequent missing edges:
+Wrote 1 vTypes, 1473 vehicles
+
+C:\Users\Traffic Team\Desktop\2020-12-30-20-31-34(KasemRat-SUMO)_Using_cutRoutes_createGridlockMasuk>python "C:\Program Files\DLR\sumo-1.6.0\tools\routeSampler.py" -r routes_new_output.rou.xml --turn-files turn3_modified_31122020.xml -o routes_filter.rou.xml
+Warning: no routes pass edge '25047974#2 459492913#0' (count 1209)
+Warning: no routes pass edge '25047974#2 459492917#0' (count 674)
+Warning: no routes pass edge '25047974#2 459492916#0' (count 211)
+Warning: no routes pass edge '825786400 459492917#0' (count 6062)
+Warning: no routes pass edge '821785867 481971013#0' (count 97)
+Warning: no routes pass edge '321845933#3 482209831#0' (count 5156)
+Warning: no routes pass edge '321845933#3 482209830#0' (count 1770)
+Warning: no routes pass edge '824116551#0 25047974#0' (count 296)
+Warning: no routes pass edge '824116551#0 338595771#1' (count 254)
+Warning: no routes pass edge '824116551#0 185563494' (count 142)
+Warning: no routes pass edge '25053626 25047974#0' (count 757)
+Warning: no routes pass edge '25053626 338595771#1' (count 2048)
+Warning: no routes pass edge '25053626 185563494' (count 296)
+Warning: no routes pass edge '25053626 157063985#0' (count 1983)
+Warning: no routes pass edge '25053626 824116552#0' (count 79)
+Warning: no routes pass edge '824116544 185563494' (count 590)
+Warning: no routes pass edge '824116544 157063985#0' (count 353)
+Warning: no routes pass edge '824116544 824116552#0' (count 1165)
+Warning: no routes pass edge '824116550#0 185563494' (count 617)
+Warning: no routes pass edge '824116550#0 157063985#0' (count 120)
+Warning: no routes pass edge '824116550#0 824116552#0' (count 3415)
+Warning: no routes pass edge '338595767 157063985#0' (count 85)
+Warning: no routes pass edge '338595767 824116552#0' (count 2661)
+Warning: no routes pass edge '338595767 185563494' (count 136)
+Warning: no routes pass edge '153225687#13 482384842#0' (count 2592)
+Warning: no routes pass edge '153225687#13 482384848#0' (count 350)
+Warning: no routes pass edge '824116555#3 482384848#0' (count 1208)
+Warning: no routes pass edge '824116555#3 292576585#0' (count 1065)
+Warning: no routes pass edge '824116555#3 482384850#0' (count 43)
+Warning: no routes pass edge '321845932#1 292576585#0' (count 3223)
+Warning: no routes pass edge '321845932#1 482384850#0' (count 2880)
+Warning: no routes pass edge '482384846 292576585#1-AddedOnRampEdge' (count 848)
+Warning: no routes pass edge '45033613#1 482384850#0' (count 1273)
+Warning: no routes pass edge '45033613#1 482384842#0' (count 313)
+Warning: no routes pass edge '482209830#0 -453962283#3 ' (count 653)
+54000: Wrote 8276 routes (825 distinct) achieving total count 12113 at 69 locations. GEH<5 for 52.17%
+Warning: underflow locations: count 34, min 8.00 (('824116555#3', '482384850#0')), max 2069.00 (('825786400', '459492917#0')), mean 334.24 Q1 67.00, median 178.00, Q3 512.00 (total 11364)
+57600: Wrote 8267 routes (819 distinct) achieving total count 11888 at 69 locations. GEH<5 for 52.17%
+Warning: underflow locations: count 34, min 11.00 (('824116555#3', '482384850#0')), max 1603.00 (('825786400', '459492917#0')), mean 333.06 Q1 64.00, median 202.00, Q3 446.00 (total 11324)
+61200: Wrote 7200 routes (823 distinct) achieving total count 9925 at 69 locations. GEH<5 for 50.72%
+Warning: underflow locations: count 35, min 11.00 (('824116555#3', '482384850#0')), max 1507.00 (('321845933#3', '482209831#0')), mean 330.97 Q1 76.00, median 191.00, Q3 562.00 (total 11584)
+64800: Wrote 6376 routes (800 distinct) achieving total count 9200 at 69 locations. GEH<5 for 53.62%
+Warning: underflow locations: count 34, min 3.00 (('338595767', '157063985#0')), max 1608.00 (('321845933#3', '482209831#0')), mean 304.47 Q1 45.00, median 180.00, Q3 480.00 (total 10352)
+all interval underflow: count 4, min 10352.00 (64800.0), max 11584.00 (61200.0), mean 11156.00 Q1 11324.00, median 11364.00, Q3 11584.00
+all interval overflow: count 4, min 0.00 (54000.0), max 0.00 (54000.0), mean 0.00 Q1 0.00, median 0.00, Q3 0.00
+all interval GEH%: count 4, min 50.72 (61200.0), max 53.62 (64800.0), mean 52.17 Q1 52.17, median 52.17, Q3 53.62
+
+C:\Users\Traffic Team\Desktop\2020-12-30-20-31-34(KasemRat-SUMO)_Using_cutRoutes_createGridlockMasuk>
