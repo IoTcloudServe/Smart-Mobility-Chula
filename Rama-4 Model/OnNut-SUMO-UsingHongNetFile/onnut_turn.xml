@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-11-06 09:51:22.141624 by generateTurnRatios.py v1_6_0+0003-190709904e
+  options: -r turn2.rou.xml -o turn3.xml
+-->
+<edgeRelations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edgerelations_file.xsd">
+    <interval id="1" begin="54000.0" end="57600.00"> 
+        <edgeRelation from="751454884#3" to="93727606#0" count="7"/>
+		<edgeRelation from="751454884#3" to="750035412#1-AddedOffRampEdge" count="1631"/>
+		<edgeRelation from="-93727606#1" to="750035412#1-AddedOffRampEdge" count="3"/>
+		<edgeRelation from="824116560#3" to="156591171#2" count="1147"/>
+		<edgeRelation from="824116560#3" to="751454885#0" count="1455"/>
+		<edgeRelation from="156591171#2" to="751454885#0" count="356"/>
+		<edgeRelation from="156591171#2" to="93727606#0" count="10"/>
+		<edgeRelation from="156591171#2" to="750035412#1-AddedOffRampEdge" count="761"/>
+    </interval>
+	<interval id="2" begin="57600.0" end="61200.00">
+        <edgeRelation from="751454884#3" to="93727606#0" count="2"/>
+		<edgeRelation from="751454884#3" to="750035412#1-AddedOffRampEdge" count="1627"/>
+		<edgeRelation from="-93727606#1" to="750035412#1-AddedOffRampEdge" count="3"/>
+		<edgeRelation from="824116560#3" to="156591171#2" count="1118"/>
+		<edgeRelation from="824116560#3" to="751454885#0" count="1542"/>
+		<edgeRelation from="156591171#2" to="751454885#0" count="351"/>
+		<edgeRelation from="156591171#2" to="93727606#0" count="4"/>
+		<edgeRelation from="156591171#2" to="750035412#1-AddedOffRampEdge" count="589"/>
+	</interval>
+	<interval id="3" begin="61200.0" end="64800.00">
+		<edgeRelation from="751454884#3" to="93727606#0" count="5"/>
+		<edgeRelation from="751454884#3" to="750035412#1-AddedOffRampEdge" count="1758"/>
+		<edgeRelation from="-93727606#1" to="750035412#1-AddedOffRampEdge" count="10"/>
+		<edgeRelation from="824116560#3" to="156591171#2" count="873"/>
+		<edgeRelation from="824116560#3" to="751454885#0" count="1652"/>
+		<edgeRelation from="156591171#2" to="751454885#0" count="465"/>
+		<edgeRelation from="156591171#2" to="93727606#0" count="3"/>
+		<edgeRelation from="156591171#2" to="750035412#1-AddedOffRampEdge" count="629"/>
+	</interval>
+	<interval id="4" begin="64800.0" end="68400.00">
+		<edgeRelation from="751454884#3" to="93727606#0" count="5"/>
+		<edgeRelation from="751454884#3" to="750035412#1-AddedOffRampEdge" count="1588"/>
+		<edgeRelation from="-93727606#1" to="750035412#1-AddedOffRampEdge" count="6"/>
+		<edgeRelation from="824116560#3" to="156591171#2" count="799"/>
+		<edgeRelation from="824116560#3" to="751454885#0" count="1533"/>
+		<edgeRelation from="156591171#2" to="751454885#0" count="372"/>
+		<edgeRelation from="156591171#2" to="93727606#0" count="2"/>
+		<edgeRelation from="156591171#2" to="750035412#1-AddedOffRampEdge" count="796"/>
+
+	</interval>
+</edgeRelations>
