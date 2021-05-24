@@ -4,6 +4,6 @@
 [submodule "Rama-4 Model"]
 	path = Rama-4 Model
 	url = https://github.com/IoTcloudServe/Rama4-Model.git
-[submodule "Real-world-sensor-dataset-for-city-inbound-outbound-critical-intersection-analysis"]
-	path = Real-world-sensor-dataset-for-city-inbound-outbound-critical-intersection-analysis
-url=https://github.com/IoTcloudServe/sathorndata.github.io
+[submodule "Real world sensor dataset for city inbound outbound critical intersection analysis"]
+	path = Real world sensor dataset for city inbound outbound critical intersection analysis
+	url = https://github.com/IoTcloudServe/sathorndata.github.io
